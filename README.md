@@ -5,7 +5,7 @@ Command: g++ assembly_script.cpp -o asm64 --std=c++14
 _____________________________________________________
 
 # Using the tool:
-./asm64 <assembly-main-file> (without extension)
+./asm64 [assembly-main-file] (without extension)
 
 Example: ./asm64 hello_world
          ./asm64 main
