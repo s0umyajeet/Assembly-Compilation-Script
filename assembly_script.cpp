@@ -18,7 +18,7 @@ int main(int argc, char **argv) {
 
 	/*
 	  Had to use string data type to be able to add the file name
-	  to the command (see line 28, 29 below)
+	  to the command (see line 35, 36 below)
 	*/
 
 	string file = "";
@@ -37,7 +37,7 @@ int main(int argc, char **argv) {
 
 	/*
 	  char* variables to store the final commands as the system() func
-	  (line 52, 53) accepts const char* as arguments and not the
+	  (line 60, 61) accepts const char* as arguments and not the
 	  std C++ string data type.
 	*/
 	char* assemble_command;
