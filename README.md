@@ -7,8 +7,10 @@ _____________________________________________________
 # Using the tool:
 ./asm64 [assembly-main-file] (without extension)
 
-Example: ./asm64 hello_world
+Examples: ./asm64 hello_world
+         
          ./asm64 main
+         
          ./asm64 pi_calc
          ...etc.
        
